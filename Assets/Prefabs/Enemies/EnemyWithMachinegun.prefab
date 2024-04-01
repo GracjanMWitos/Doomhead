@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7057951073430049154}
+  - component: {fileID: 7463959509852215866}
   m_Layer: 0
   m_Name: MachineGunCenter
   m_TagString: Untagged
@@ -32,6 +33,18 @@ Transform:
   m_Father: {fileID: 8201991805859192929}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -22.21, z: 0}
+--- !u!114 &7463959509852215866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3306657176309008276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d361cf1f52a1f40b50c2d74cb17604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8201114879187541960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,7 +1794,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 6746
+  m_VersionIndex: 6749
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4706,7 +4719,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4104
+  m_VersionIndex: 4107
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4822,7 +4835,7 @@ PrefabInstance:
     - target: {fileID: 1655452945147792306, guid: 36d961098119df14784642c32714d47d,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 6696
+      value: 6699
       objectReference: {fileID: 0}
     - target: {fileID: 1655452945147792310, guid: 36d961098119df14784642c32714d47d,
         type: 3}
@@ -4837,7 +4850,7 @@ PrefabInstance:
     - target: {fileID: 1655452945347235463, guid: 36d961098119df14784642c32714d47d,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 2858
+      value: 2861
       objectReference: {fileID: 0}
     - target: {fileID: 1655452945347235514, guid: 36d961098119df14784642c32714d47d,
         type: 3}
@@ -4922,7 +4935,7 @@ PrefabInstance:
     - target: {fileID: 1655452945840649018, guid: 36d961098119df14784642c32714d47d,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 2842
+      value: 2845
       objectReference: {fileID: 0}
     - target: {fileID: 1655452945840649022, guid: 36d961098119df14784642c32714d47d,
         type: 3}
@@ -4937,7 +4950,7 @@ PrefabInstance:
     - target: {fileID: 1655452946142833861, guid: 36d961098119df14784642c32714d47d,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 5041
+      value: 5044
       objectReference: {fileID: 0}
     - target: {fileID: 1655452946142833912, guid: 36d961098119df14784642c32714d47d,
         type: 3}

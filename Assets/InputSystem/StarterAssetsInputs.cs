@@ -13,6 +13,9 @@ namespace StarterAssets
 		public bool jump;
 		public bool sprint;
 		public bool shoot;
+		public bool weapon1;
+		public bool weapon2;
+		public bool weapon3;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -47,6 +50,24 @@ namespace StarterAssets
 		public void OnShoot(InputValue value)
 		{
 			shoot = value.isPressed;
+		}
+		public void OnWeapon1(InputValue value)
+		{
+			weapon1 = value.isPressed;
+			weapon2 = false;
+			weapon3 = false;
+		}
+		public void OnWeapon2(InputValue value)
+		{
+			weapon1 = false;
+			weapon2 = value.isPressed;
+			weapon3 = false;
+		}
+		public void OnWeapon3(InputValue value)
+		{
+			weapon1 = false;
+			weapon2 = false;
+			weapon3 = value.isPressed;
 		}
 #endif
 
